@@ -10,5 +10,9 @@ Sunucuya verileri göndermek için; sunucu adresi, kullanıcı adı ve şifre gi
 
 Veriler, sunucuya **JSON** formatında **POST** edilir ve bu işlem **HTTP Basic Authentication** kullanılarak yapılır.
 
+### Ekran Görüntüleri:
 
+![Ekran Görüntüsü 1](https://github.com/SimaWB/CallLogger/blob/master/Screenshots/screenshot1.jpg)
+
+![Ekran Görüntüsü 2](https://github.com/SimaWB/CallLogger/blob/master/Screenshots/screenshot2.jpg)
 
