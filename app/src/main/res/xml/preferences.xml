@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="pref_checkbox_missedCall"
+        android:title="@string/pref_checkbox_missedCall_title"
+        android:summary="@string/pref_checkbox_missedCall_summary"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="pref_checkbox_zeroLength"
+        android:title="@string/pref_pref_checkbox_zeroLength_title"
+        android:summary="@string/pref_pref_checkbox_zeroLength_summary"
+        android:defaultValue="true"/>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title">
+
+        <CheckBoxPreference
+            android:key="pref_checkbox_send2Server"
+            android:title="@string/pref_pref_checkbox_send2Server_title"
+            android:summary="@string/pref_pref_checkbox_send2Server_summary"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="pref_checkbox_wifi"
+            android:title="@string/pref_pref_wifi_title"
+            android:dependency="pref_checkbox_send2Server"
+            android:defaultValue="true"/>
+
+        <EditTextPreference
+            android:title="@string/pref_edit_serverName_title"
+            android:key="server_name"
+            android:summary="@string/pref_edit_serverName_summary"
+            android:dependency="pref_checkbox_send2Server"
+            android:defaultValue="@string/web_server"/>
+
+        <EditTextPreference
+            android:title="@string/pref_edit_username_title"
+            android:key="user_name"
+            android:summary="@string/pref_edit_username_summary"
+            android:dependency="pref_checkbox_send2Server"/>
+
+        <EditTextPreference
+            android:title="@string/pref_edit_password_title"
+            android:key="password"
+            android:inputType="textPassword"
+            android:summary="@string/pref_edit_password_summary"
+            android:dependency="pref_checkbox_send2Server"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

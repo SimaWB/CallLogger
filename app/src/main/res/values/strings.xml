@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CallLogger</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="pref_checkbox_missedCall_title">Cevapsız Kaydet</string>
+    <string name="pref_checkbox_missedCall_summary">Cevapsız aramalar da kaydedilsin mi?</string>
+    <string name="pref_pref_checkbox_zeroLength_title">0 sn Kaydet</string>
+    <string name="pref_pref_checkbox_zeroLength_summary">Süresi 0 sn olan aramalar kaydedilsin mi?</string>
+    <string name="pref_category_title">Sunucu Ayarları</string>
+    <string name="pref_pref_checkbox_send2Server_title">Sunucuya Gönder</string>
+    <string name="pref_pref_checkbox_send2Server_summary">Kayıtların bir kopyası istenilen bir web sunucusuna gönderilsin mi?</string>
+    <string name="pref_edit_serverName_title">Sunucu Adresi</string>
+    <string name="pref_edit_serverName_summary">Kayıt bilgilerinin gönderileceği web adresi</string>
+    <string name="web_server">http://www.sunucuadresi.com</string>
+    <string name="pref_pref_wifi_title">Sadece WiFi ile gönder</string>
+    <string name="pref_edit_username_title">Kullanıcı Adı</string>
+    <string name="pref_edit_username_summary">Sunucuda oturum açmak için kullanıcı adı</string>
+    <string name="pref_edit_password_title">Şifre</string>
+    <string name="pref_edit_password_summary">Sunucuda oturum açmak için şifre</string>
+    <string name="search_hint">Filtre uygula</string>
+</resources>
