@@ -10,6 +10,18 @@ Sunucuya verileri göndermek için; sunucu adresi, kullanıcı adı ve şifre gi
 
 Veriler, sunucuya **JSON** formatında **POST** edilir ve bu işlem **HTTP Basic Authentication** kullanılarak yapılır.
 
+---
+### Sunucuya gönderilen veriye örnek:
+```json
+{
+  "call_date": "2016-12-01 10:11:55",
+  "call_number":"05551234567",
+  "call_name":"KIZIM",
+  "call_duration":105,
+  "call_type":1
+}
+```
+---
 ### Ekran Görüntüleri:
 
 ![Ekran Görüntüsü 1](https://github.com/SimaWB/CallLogger/blob/master/Screenshots/screenshot1.jpg)
