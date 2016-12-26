@@ -66,6 +66,7 @@ public class MyListAdapter extends BaseAdapter {
 
             switch (CR.getCallType()) {
                 case CallLog.Calls.MISSED_TYPE:
+                case CallLog.Calls.REJECTED_TYPE:
                     color = Color.RED;
                     resId = R.drawable.ic_call_missed;
                     break;
